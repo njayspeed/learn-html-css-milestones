@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- meta tags, links to css, etc. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basic CSS</title>
+
+<style>
+  .words{
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+
+  .fontpage{
+    font-family: Helvetica;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .sec1{
+    background-image: linear-gradient(gold, purple);
+    color: white;
+  }
+
+  .sec2{
+    background-image: linear-gradient(purple, gold);
+    text-align: center;
+    align-content: center;
+    color: white;
+  }
+
+  span{
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  div.sec2 > p{
+    font-weight: bold;
+  }
+
+  div.sec2 ol{
+    list-style-type: upper-roman;
+  }
+
+  .image{
+    width:600px;
+    height: 600px;
+  }
+
+  body{
+    background-color: purple;
+    border: 3px solid white;
+  }
+
+  div{
+    margin: 3px;
+    padding: 2px
+  }
+
+
+</style>
+</head>
+
+<body class="fontpage">
+<!-- visible content goes here -->
+  <div class="sec1">
+    <h1>Basic CSS</h1>
+    <p> Welcome to the Basic CSS page. This page will serve
+    to help you learn about common CSS properties.</p>
+
+    <p>The code for this page lives in <code>basic-css.html</code>. There are
+       two ways to see its contents:</p>
+    <ol>
+      <li>Open <code>basic-css.html</code> in VS Code or another editor</li>
+      <li>Right-click anywhere on this page and select <em>View Source</em></li>
+    </ol>
+  </div>
+
+  <div class="sec2 words">
+    <h2>My favorite football team</h2>
+    <img class="image"src="../assets/img/Ravens.png" alt="Ravens logo">
+    <p>Favorite Players:</p>
+    <ol>
+      <li>Lamar Jackson, <span>qb</span></li>
+      <li>Marquise Brown,<span>qb</span> </li>
+      <li>Marlon Humphrey,<span>qb</span> </li>
+    </ol>
+  </div>
+
+
+
+
+</body>
+</html>

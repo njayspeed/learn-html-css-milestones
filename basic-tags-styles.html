@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- meta tags, links to css, etc. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basic Tags</title>
+
+<style>
+  .red{
+    color: red;
+  }
+
+  .blue{
+    color: blue;
+  }
+
+  h2{
+    color: green;
+  }
+
+  section#block-level > h2{
+    color: purple;
+  }
+
+  .border1{
+    border: 2px black solid;
+  }
+
+  .border2{
+    border: 2px grey dotted;
+  }
+</style>
+</head>
+
+<body>
+<!-- visible content goes here -->
+  <h1>Basic Tags Styles</h1>
+  <p> Welcome to the Basic Tags Styles page. This page will serve
+  to help you learn about HTML tags.
+  <p>The code for this page lives in <code>basic-tags-styles.html</code>. There are
+     two ways to see its contents:</p>
+  <ol>
+    <li>Open <code>basic-tags.html</code> in VS Code or another editor</li>
+    <li>Right-click anywhere on this page and select <em>View Source</em></li>
+  </ol>
+
+  <section id="block-level">
+    <h2>Block-Level Text Containers</h2>
+    <p>This is using a paragraph tag</p>
+    <blockquote> This is using a blockquote tag- NyJay N. </blockquote>
+    <pre>This is using the pre tag</pre>
+  </section>
+
+  <section class="border1" id="inline">
+    <h2>Inline Text Styling</h2>
+    <p><em>This was written using the em tag</em></p>
+    <p><i>This was written using the i tag</i></p>
+    <p><strong>This was written using the strong tag</strong></p>
+    <p><b>This was written using the b tag</b></p>
+    <p><code>This was written using the code tag</code></p>
+  </section>
+
+  <section id="anchor">
+    <h2>The A tag</h2>
+    <a href="#">This was written using the a tag</a>
+  </section>
+
+  <section class="border2" id="image">
+    <h2>The IMG tag</h2>
+    <img src="../assets/img/cutepuppy.jpg" alt="Picute of Cute Puppy">
+  </section>
+
+  <section class="red" id="headers">
+    <h2>Header Tags</h2>
+    <h1>This is h1</h1>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+  </section>
+
+  <section class="blue" id="lists">
+    <h2>Lists</h2>
+    <p>Music Genres w/ Examples</p>
+    <ul>
+      <li>Hip-Hop</li>
+        <ul>
+          <li>The Bigger Picture- Lil Baby</li>
+        </ul>
+      <li>R&B</li>
+        <ul>
+          <li>Outta Time- Bryson Tiller</li>
+        </ul>
+      <li>Country</li>
+        <ul>
+          <li>Hard to Forget- Sam Hunt</li>
+        </ul>
+    </ul>
+
+    <p>Websites</p>
+    <ul>
+      <li><a href="https://www.apple.com/">https://www.apple.com/</a></li>
+      <li><a href="https://www.davidson.edu/">https://www.davidson.edu/</a></li>
+      <li><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
+    </ul>
+
+    <p>Favorite Jordans</p>
+    <ol>
+      <li>Jordan 11s</li>
+      <li>Jordan 4s</li>
+      <li>Jordan 1s</li>
+    </ol>
+
+    <p>Favorite Colors</p>
+    <ol>
+      <li><p>Blue</p></li>
+      <li><p>Black</p></li>
+      <li><p>Red</p></li>
+    </ol>
+  </section>
+
+  <section id="tables">
+    <h2>Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Class</th>
+          <th>Time</th>
+          <th>Day</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DIG 245</td>
+          <td>1:10-4:00pm</td>
+          <td>W</td>
+        </tr>
+        <tr>
+          <td>CSC 381</td>
+          <td>9:40-10:30am</td>
+          <td>MWF</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NyJay</td>
+          <td>2021</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kevin</td>
+          <td>NyJay</td>
+          <td>Wilbert</td>
+          <td>T.J</td>
+        </tr>
+        <tr>
+          <td>Ace</td>
+          <td>Deuce</td>
+          <td>Tre</td>
+          <td>Quad</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>

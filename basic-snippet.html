@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- meta tags, links to css, etc. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anatomy HTML Tag</title>
+</head>
+
+<body>
+<!-- visible content goes here -->
+  <h1>Anatomy of HTML Tag</h1>
+  <p> Welcome to the Anatomy of an HTML page. This page will serve
+  to help you learn the basic anatomy of an HTML tag. This page will talk about
+  the following snippet:</p>
+
+  <img src="../assets/img/snippet.png" alt="Picute of Basic Snippet">
+
+  <p>
+    <strong>Here is the actual code:</strong><br>
+    Want to search the web?
+    Try <a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google</a>!
+  </p>
+
+  <h2>Snippet Anatomy</h2>
+  <p>The snippet has 2 tags:</p>
+  <ol>
+    <li>Paragraph Tag <em>&ltp></em>
+      <a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank"> HTML Paragraph Reference</a>
+    </li>
+    <li>Anchor Tag <em>&lta></em>
+      <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"> HTML Anchor Reference</a>
+    </li>
+  </ol>
+
+  <p>There are a few other things to note about the snippet. In that code snippet
+  the anchor tag (<em>&lta></em>) is a child of the the paragraph tag (<em>&ltp></em>).</p>
+
+  <h3>Tag Anatomy</h3>
+  <p>Tags are elements and have most contain opening and closing tags. The
+  difference between <em>&ltp></em> and <em>&lt/p></em> is that the former is an
+  opening tag and the latter is a closing tag. Also tags can have attributes which
+  are extra bits of information. The anchor tag <em>&lta></em> in the snippet has
+  the following attributes: </p>
+  <ol>
+    <li>Href Attribute: The purpose of this attrubute is to specify the link's
+      destination. When clicked it will take you to that destination. The value
+      for the attribute in the snippet is <em>"https://google.com"</em>. When clicked
+      it will take you to that site.
+    </li>
+    <li>ID Attribute: The purpose of this attribute is specify a unique ID for
+      an HMTL element. The ID attribute is most used to point to a style in a CSS
+      stylesheet. The value for the attribute in this snippet is <em>"the-best-link"</em>.
+      There is no stylesheet so nothing will happen.
+    </li>
+    <li>Class Attribute: The purpose of this attribute is to specify one or more
+      class names for an element. It is used similar to the ID attribute in that it
+      is most used to point to a class in the CSS stylesheet. The value for the attribute
+      in this snippet is <em>"banana"</em>. There is no stylesheet so nothing will happen.
+    </li>
+    <li>Target Attribute: The purpose of this attribute is to specify a name or
+      a keyword that indicates where to display the response that is received after
+      submitting the form. In this case since the value of the attribute is
+      <em>"_blank"</em>, the page will open in a new tab or window.
+    </li>
+  </ol>
+
+  <p>The code for this page lives in <code>basic-snippet.html</code>. There are
+     two ways to see its contents:</p>
+  <ol>
+    <li>Open <code>basic-snippet.html</code> in VS Code or another editor</li>
+    <li>Right-click anywhere on this page and select <em>View Source</em></li>
+  </ol>
+
+
+</body>
+</html>
